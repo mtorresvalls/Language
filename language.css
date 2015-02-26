@@ -1,0 +1,82 @@
+# Language
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Oswald:300);
+@import url(http://fonts.googleapis.com/css?family=Teko);
+@import url(http://fonts.googleapis.com/css?family=Karla);
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+  color:#add;
+  padding-right:10px;
+  padding-left:10px;
+  font-size:30px;
+}
+.navigation {
+  background-color:white;
+  height:400px;
+  display:inline-block;
+  color:#333;
+  padding-top:10px;
+}
+.navigation li {
+  color:#333;
+  text-decoration:none;
+  list-style:none;
+  padding-top:10px;
+  padding-bottom:30px;
+  font-family:Raleway;
+  padding-left:10px;
+}
+a {
+   text-decoration:none;
+  font-family:Raleway;
+}
+.navigation li:hover {
+  background-color:#3B5A91;
+  color:white;
+  width:150px;
+}
+.menu {
+  height:500px;
+  width:490px;
+}
+#divider {
+  background-color:#3B5A91;
+  height:70px;
+  width:1060px;
+  margin-left:348px;
+  margin-top:-525px;
+}
+#divider h1  {
+  color:white;
+  text-align:center;
+  padding-top:10px;
+  font-family:Oswald
+}
+#images {
+  border-solid grey 1px;
+  height:500px;
+  width:100%;
+  
+}
+#images h1 {
+  margin-left:600px;
+  padding-top:100px;
+  color:grey;
+  font-family:Raleway
+}
+#divider h1:hover {
+  background-color:white;
+  transition:all .7s linear;
+  color:black;
+  height:100px;
+  text-decoration:underline;
+}
+#second-divider {
+  background-color:#3B5A91;
+  height:370px;
+  width:5px;
+  margin-top:-522px;
+  margin-left:300px;
+}
